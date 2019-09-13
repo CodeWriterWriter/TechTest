@@ -1,0 +1,6 @@
+<p>user-table works!</p>
+<ul>
+    <li *ngFor="let dataLine of data; let i = index">
+        <p (click)="selectedChanged(i)">{{dataLine.name}}</p>
+    </li>
+</ul>
